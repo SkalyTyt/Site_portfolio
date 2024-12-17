@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Сайт визитка</title>
+</head>
+<body>
+    <header>
+        <h1 id="about_me">SKALY</h1>
+    <nav>
+        <a href="#about_me">Обо мне</a>
+        <a href="#primer">Примеры работ</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+</header>
+    <main>
+        <div class="photo">
+        <img src="img/avatar.png" alt="" >
+    </div>
+        <div class="info">
+            <h1>Обо мне</h1>
+                <p>Меня зовут Матвей, мне 16 лет. Я увлечён программированием и активно развиваю свои навыки в этой области. Моя цель – стать профессиональным разработчиком и создавать инновационные проекты.</p>
+        </div>
+        <div class="inline">
+            
+        </div>
+        <h2 class="hhtwo" id="primer">Примеры моих работ</h2> 
+        <div class="photos">
+            <div class="photoone">
+                <img src="img/site1.jpg" alt="">
+            </div>
+        <div class="phototwo">
+                <img src="img/site2.jpg" alt="">
+        </div>
+    </div>
+        <div class="inlinetwo"></div>
+        <h2 id="contacts">Контакты</h2>
+        <div class="container">
+            <form action="#" method="post">
+                <label for="name">Ваше имя:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Или псевдоним"><br>
+                
+                <label for="phone">Номер телефона:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="\+?[0-9]{10,15}" placeholder="+7 (999) 123-45-67" required><br>
+                
+                <label for="wishes">Ваши пожелания:</label><br>
+                <textarea id="wishes" name="wishes" rows="4" cols="50" placeholder="Что нужно вам чтоб было в вашем сайте:"></textarea><br>
+                
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="fot">
+            <p>© 2023 [SKALY]. Все права защищены.Сайт создан [11.12.24].</p>
+        </div>
+        <div class="info1">
+            <p>skalytytj@gmail.com <br> +7(904)-978-62-49</p>
+        </div>
+        <div class="social">
+        <img src="img/telegram.png" alt="">
+        <img src="img/vk.png" alt="">
+        <img src="img/github.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>
